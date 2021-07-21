@@ -70,15 +70,10 @@
 }
 
 .searchbar:hover .search_input {
-  padding: 0 10px;
-  width: 450px;
+  padding: 0 20px;
+  width: 400px;
   caret-color: rgb(13, 97, 206); /* | blink blink  */
   transition: width 0.4s linear;
-}
-
-.searchbar:hover .search_icon {
-  background: white;
-  color: rgb(13, 97, 206);
 }
 
 .search_icon {
@@ -91,4 +86,10 @@
   border-radius: 50%;
   color: white;
   text-decoration: none;
+}
+.searchbar:hover .search_icon {
+  background: white;
+  color: rgb(13, 97, 206);
+}
+@media and (min-width: ) {
 }
